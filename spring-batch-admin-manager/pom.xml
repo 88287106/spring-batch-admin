@@ -8,7 +8,7 @@ visualization of Batch meta data, and also launching and stopping jobs inside th
 	<parent>
 		<artifactId>spring-batch-admin-parent</artifactId>
 		<groupId>org.springframework.batch</groupId>
-		<version>2.0.0.BUILD-SNAPSHOT</version>
+		<version>2.0.0.halo-SNAPSHOT</version>
 		<relativePath>../spring-batch-admin-parent</relativePath>
 	</parent>
 	<name>Manager</name>
@@ -205,8 +205,8 @@ visualization of Batch meta data, and also launching and stopping jobs inside th
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>
